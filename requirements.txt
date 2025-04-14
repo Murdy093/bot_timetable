@@ -1,0 +1,4 @@
+aiogram==3.2.0
+selenium==4.19.0
+webdriver-manager==4.0.1
+beautifulsoup4==4.12.3
