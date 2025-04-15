@@ -1,6 +1,3 @@
-from keep_alive import keep_alive
-keep_alive()
-
 import logging
 import asyncio
 import re
@@ -32,7 +29,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = "7879357524:AAGsWl3aQY8aInB2ILgxCX6VVuknx4G1zPI"
+BOT_TOKEN = "7606814984:AAEbAYrOmC9mN0TPhwBZNuLv1ykpGQHoXSs"
 URL = "https://dekanat.nung.edu.ua/cgi-bin/timetable.cgi?n=700"
 
 bot = Bot(token=BOT_TOKEN)
